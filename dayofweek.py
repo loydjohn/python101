@@ -1,18 +1,19 @@
 print ("Input an Integer between 1 -7")
 day = input()
+week = ["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","STATURDAY","SUNDAY"]
 if day==1:
-    print("1 is for Monday")
+    print(week[0])
 elif day==2:
-    print("2 is for Tuesday")
+    print(week[1])
 elif day==3:
-    print("3 is for Wenesday")
+    print(week[2])
 elif day==4:
-    print("4 is for Thursday")
+    print(week[3])
 elif day==5:
-    print("5 is for Friday")
+    print(week[4])
 elif day==6:
-    print("6 is for Saturday")
+    print(week[5])
 elif day==7:
-    print("7 is for Sunday")
+    print(week[6])
 else:
-    print("Wrong argument passed:")
+    print("Wrong Argument")
